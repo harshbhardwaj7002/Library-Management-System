@@ -1,6 +1,5 @@
-# issue_book.py
 
-from utils import library, issued_books
+from utils import library, issue_book
 from datetime import datetime
 
 def issue_book():
@@ -10,7 +9,7 @@ def issue_book():
     if book_id in library and library[book_id]["available"]:
         library[book_id]["available"] = False
 
-        issued_books[user] = {
+        issue_book[user] = {
             "book_id": book_id,
             "date": datetime.now()
         }
