@@ -6,7 +6,7 @@ from show_book import show_book
 def menu():
     while True:
         print("\n===== LIBRARY MENU =====")
-        print("1. Show Books")
+        print("1. Show Book")
         print("2. Add Book")
         print("3. Issue Book")
         print("4. Return Book")
